@@ -1,6 +1,4 @@
-﻿
-
-CREATE PROC [dbo].[DimDate_InsertInferredDate]
+﻿CREATE PROC [dbo].[DimDate_InsertInferredDate]
     @StartDate DATETIME, @EndDate DATETIME = NULL
     , @CreatedByPackageID INT = 0
     , @Debug BIT = 0
@@ -362,7 +360,7 @@ END
 	/*Election Day - The first Tuesday after the first Monday in November*/
 	BEGIN
 	DECLARE @Holidays TABLE (ID INT IDENTITY(1,1), 
-	DateID int, WEEK TINYINT, YEAR CHAR(4), DAY CHAR(2))
+	DateID int, Week TINYINT, Year CHAR(4), Day CHAR(2))
 
 		INSERT INTO @Holidays(DateID, [Year],[Day])
 		SELECT

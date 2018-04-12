@@ -93,7 +93,6 @@
     <Build Include="Stg\Tables\SplunkContentBrowserLogins.sql" />
     <Build Include="Stg\Tables\SplunkEmbedLogDetails.sql" />
     <Build Include="dbo\Tables\dimDate.sql" />
-    <Build Include="Security\pschott.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Stored Procedures\DimDate_InsertInferredDate.sql" />
     <Build Include="Security\Stg.sql" />
