@@ -97,4 +97,7 @@
     <Build Include="dbo\Stored Procedures\DimDate_InsertInferredDate.sql" />
     <Build Include="Security\Stg.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Publish\Local.publish.xml" />
+  </ItemGroup>
 </Project>

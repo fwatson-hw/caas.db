@@ -8,6 +8,7 @@
     [Category]           NVARCHAR (100) NOT NULL,
     [IsInferred]         BIT            CONSTRAINT [DF_dimContent_IsInferred] DEFAULT ((0)) NOT NULL,
     [CreatedDate]        DATETIME2 (7)  NOT NULL,
-    [CreatedByPackageId] INT            NOT NULL
+    [CreatedByPackageId] INT            NOT NULL,
+	CONSTRAINT PK_dimContent PRIMARY KEY CLUSTERED (ContentKey)
 );
 

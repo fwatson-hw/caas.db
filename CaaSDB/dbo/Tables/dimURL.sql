@@ -4,6 +4,7 @@
     [URLDomain]          NVARCHAR (500)  NOT NULL,
     [IsInferred]         BIT             CONSTRAINT [DF_dimURL_IsInferred] DEFAULT ((0)) NOT NULL,
     [CreatedDate]        DATETIME2 (7)   NOT NULL,
-    [CreatedByPackageId] INT             NOT NULL
+    [CreatedByPackageId] INT             NOT NULL,
+	CONSTRAINT PK_dimURL PRIMARY KEY CLUSTERED (URLKey)
 );
 

@@ -7,6 +7,7 @@
     [UrlAlias]              NVARCHAR (500) NOT NULL,
     [IsInferred]            BIT            CONSTRAINT [DF_dimClient_IsInferred] DEFAULT ((0)) NOT NULL,
     [CreatedDate]           DATETIME2 (7)  NOT NULL,
-    [CreatedByPackageId]    INT            NOT NULL
+    [CreatedByPackageId]    INT            NOT NULL,
+	CONSTRAINT PK_dimClient PRIMARY KEY CLUSTERED(ClientKey)
 );
 

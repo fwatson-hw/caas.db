@@ -3,6 +3,7 @@
     [StatusCode]         INT           NOT NULL,
     [IsInferred]         BIT           CONSTRAINT [DF_dimStatus_IsInferred] DEFAULT ((0)) NOT NULL,
     [CreatedDate]        DATETIME2 (7) NOT NULL,
-    [CreatedByPackageId] INT           NOT NULL
+    [CreatedByPackageId] INT           NOT NULL,
+	CONSTRAINT PK_dimStatus PRIMARY KEY CLUSTERED (StatusKey)
 );
 

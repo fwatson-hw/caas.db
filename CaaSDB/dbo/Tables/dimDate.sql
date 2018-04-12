@@ -34,6 +34,10 @@
     [AuditID]                    BIGINT       NOT NULL,
     [IsInferred]                 BIT          CONSTRAINT [DF_dimDate_IsInferred] DEFAULT ((0)) NOT NULL,
     [CreatedDate]                DATETIME     CONSTRAINT [DF_dimDate_CreatedDate] DEFAULT (getutcdate()) NOT NULL,
-    [CreatedByPackageID]         INT          CONSTRAINT [DF_dimDate_CreatedByPackageID] DEFAULT ((0)) NOT NULL
+    [CreatedByPackageID]         INT          CONSTRAINT [DF_dimDate_CreatedByPackageID] DEFAULT ((0)) NOT NULL,
+	CONSTRAINT PK_dimDate PRIMARY KEY CLUSTERED (DateKey)
 );
+GO
+CREATE NONCLUSTERED INDEX IX_Date ON dbo.dimDate(Date);
+GO
 

@@ -5,6 +5,7 @@
     [URLKey]              INT    NOT NULL,
     [ContentKey]          INT    NOT NULL,
     [StatusKey]           INT    NOT NULL,
-    [Requests]            INT    NOT NULL
+    [Requests]            INT    NOT NULL,
+	CONSTRAINT PK_factEmbedContent PRIMARY KEY CLUSTERED(FactEmbedContentKey)
 );
 

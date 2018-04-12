@@ -6,6 +6,7 @@
     [UserKey]               INT    NOT NULL,
     [ApplicationKey]        INT    NOT NULL,
     [EventKey]              INT    NOT NULL,
-    [Counts]                INT    NOT NULL
+    [Counts]                INT    NOT NULL,
+	CONSTRAINT PK_factContentBrowser PRIMARY KEY CLUSTERED (FactContentBrowserKey)
 );
 
