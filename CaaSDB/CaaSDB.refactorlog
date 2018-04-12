@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f74718bf-572a-49e7-8c8e-938687f5399c" ChangeDateTime="04/12/2018 18:26:03">
+    <Property Name="ElementName" Value="[Stg].[SplunkContentBrowserLogins].[_time]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Stg].[SplunkContentBrowserLogins]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventDateTime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98ac10ff-8dbc-4f54-833c-334d94eec832" ChangeDateTime="04/12/2018 18:26:23">
+    <Property Name="ElementName" Value="[Stg].[SplunkContentBrowserEmbedCopies].[_time]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Stg].[SplunkContentBrowserEmbedCopies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventDateTime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="42505aa2-7075-43e5-8742-4b2fd4cad35e" ChangeDateTime="04/12/2018 18:26:40">
+    <Property Name="ElementName" Value="[Stg].[SplunkEmbedLogDetails].[_time]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Stg].[SplunkEmbedLogDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventDateTime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6f1d5752-114a-45e0-89bb-795fe8a07a93" ChangeDateTime="04/12/2018 18:27:30">
+    <Property Name="ElementName" Value="[Stg].[SplunkEmbedLogDetails].[cs_Referer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Stg].[SplunkEmbedLogDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[cs_Referrer]" />
+  </Operation>
+</Operations>

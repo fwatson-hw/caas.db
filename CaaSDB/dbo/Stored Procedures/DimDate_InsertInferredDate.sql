@@ -431,7 +431,7 @@ IF @Debug = 1
     SELECT *
     FROM @DimDate
 )
-MERGE dbo.dimDate AS mytarget
+MERGE dbo.DimDate AS mytarget
 USING DimDate_CTE
      ON DimDate_CTE.[DateKey] = myTarget.[DateKey]
 WHEN MATCHED THEN UPDATE SET 

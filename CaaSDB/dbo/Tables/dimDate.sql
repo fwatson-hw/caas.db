@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[dimDate] (
+﻿CREATE TABLE [dbo].[DimDate] (
     [DateKey]                    INT          NOT NULL,
     [Date]                       DATE         NULL,
     [FullDate]                   CHAR (10)    NULL,
@@ -35,9 +35,9 @@
     [IsInferred]                 BIT          CONSTRAINT [DF_dimDate_IsInferred] DEFAULT ((0)) NOT NULL,
     [CreatedDate]                DATETIME     CONSTRAINT [DF_dimDate_CreatedDate] DEFAULT (getutcdate()) NOT NULL,
     [CreatedByPackageID]         INT          CONSTRAINT [DF_dimDate_CreatedByPackageID] DEFAULT ((0)) NOT NULL,
-	CONSTRAINT PK_dimDate PRIMARY KEY CLUSTERED (DateKey)
+	CONSTRAINT PK_DimDate PRIMARY KEY CLUSTERED (DateKey)
 );
 GO
-CREATE NONCLUSTERED INDEX IX_Date ON dbo.dimDate(Date);
+CREATE NONCLUSTERED INDEX IX_DimDate_Date ON dbo.DimDate(Date);
 GO
 

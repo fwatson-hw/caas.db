@@ -78,26 +78,29 @@
     <PreDeploy Include="Scripts\Pre-Deploy\Script.PreDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\dimContent.sql" />
-    <Build Include="dbo\Tables\dimApplication.sql" />
-    <Build Include="dbo\Tables\dimClient.sql" />
-    <Build Include="dbo\Tables\dimEvent.sql" />
-    <Build Include="dbo\Tables\dimStatus.sql" />
-    <Build Include="dbo\Tables\dimURL.sql" />
-    <Build Include="dbo\Tables\dimUser.sql" />
-    <Build Include="dbo\Tables\factContentBrowser.sql" />
-    <Build Include="dbo\Tables\factEmbedContent.sql" />
-    <Build Include="Stg\Tables\CaaSfactContentBrowser.sql" />
-    <Build Include="Stg\Tables\CaaSfactEmbedContent.sql" />
+    <Build Include="dbo\Tables\DimContent.sql" />
+    <Build Include="dbo\Tables\DimApplication.sql" />
+    <Build Include="dbo\Tables\DimClient.sql" />
+    <Build Include="dbo\Tables\DimEvent.sql" />
+    <Build Include="dbo\Tables\DimStatus.sql" />
+    <Build Include="dbo\Tables\DimURL.sql" />
+    <Build Include="dbo\Tables\DimUser.sql" />
+    <Build Include="dbo\Tables\FactContentBrowser.sql" />
+    <Build Include="dbo\Tables\FactEmbedContent.sql" />
+    <Build Include="Stg\Tables\CaaSFactContentBrowser.sql" />
+    <Build Include="Stg\Tables\CaaSFactEmbedContent.sql" />
     <Build Include="Stg\Tables\SplunkContentBrowserEmbedCopies.sql" />
     <Build Include="Stg\Tables\SplunkContentBrowserLogins.sql" />
     <Build Include="Stg\Tables\SplunkEmbedLogDetails.sql" />
-    <Build Include="dbo\Tables\dimDate.sql" />
+    <Build Include="dbo\Tables\DimDate.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Stored Procedures\DimDate_InsertInferredDate.sql" />
     <Build Include="Security\Stg.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\Local.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="CaaSDB.refactorlog" />
   </ItemGroup>
 </Project>
