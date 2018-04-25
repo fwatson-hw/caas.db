@@ -100,7 +100,7 @@
   <ItemGroup>
     <None Include="Publish\Local.publish.xml" />
     <None Include="Publish\Test.publish.xml" />
-    <None Include="Publish\Dev.publish.xml" />
+    <None Include="Publish\Prod.publish.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="CaaSDB.refactorlog" />
