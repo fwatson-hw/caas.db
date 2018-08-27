@@ -34,6 +34,9 @@
     [AuditID]                    BIGINT       NOT NULL,
     [IsInferred]                 BIT          NOT NULL,
     [CreatedDate]                DATETIME     NOT NULL,
-    [CreatedByPackageID]         INT          NOT NULL
+    [CreatedByPackageID]         INT          NOT NULL,
+	CONSTRAINT PK_DimDate PRIMARY KEY CLUSTERED (DateKey)
 );
-
+GO
+CREATE NONCLUSTERED INDEX IX_DimDate_Date ON dbo.DimDate(Date);
+GO

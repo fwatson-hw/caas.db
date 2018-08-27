@@ -3,6 +3,7 @@
     [StatusCode]         INT           NOT NULL,
     [IsInferred]         BIT           NOT NULL,
     [CreatedDate]        DATETIME2 (7) NOT NULL,
-    [CreatedByPackageId] INT           NOT NULL
+    [CreatedByPackageId] INT           NOT NULL,
+	CONSTRAINT PK_DimStatus PRIMARY KEY CLUSTERED (StatusKey)
 );
 
