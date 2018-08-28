@@ -91,5 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\Test.publish.xml" />
+    <None Include="Publish\Prod.publish.xml" />
   </ItemGroup>
 </Project>
