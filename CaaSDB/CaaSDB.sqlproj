@@ -70,6 +70,8 @@
     <Folder Include="Stg\Tables\" />
     <Folder Include="Security\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Stg\Views\" />
+    <Folder Include="dbo\Views\" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Post-Deploy\Script.PostDeployment.sql" />
@@ -96,6 +98,29 @@
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Stored Procedures\DimDate_InsertInferredDate.sql" />
     <Build Include="Security\Stg.sql" />
+    <Build Include="Stg\Tables\StructuredContent_synonym.sql" />
+    <Build Include="Stg\Tables\StructuredContent_document.sql" />
+    <Build Include="Stg\Tables\StructuredContent_DITAdoc.sql" />
+    <Build Include="Stg\Tables\StructuredContent_AspectTopic.sql" />
+    <Build Include="Stg\Tables\StructuredContent_AspectArticle.sql" />
+    <Build Include="Stg\Tables\SplunkAPIUsageTopics.sql" />
+    <Build Include="Stg\Tables\SplunkAPIUsageArticles.sql" />
+    <Build Include="Stg\Tables\SplunkAPIUsage.sql" />
+    <Build Include="Stg\Tables\CaaSFactAPIUsageTopics.sql" />
+    <Build Include="Stg\Tables\CaaSFactAPIUsageArticles.sql" />
+    <Build Include="Stg\Tables\CaaSFactAPIUsage.sql" />
+    <Build Include="dbo\Tables\StructuredContent_Topics.sql" />
+    <Build Include="dbo\Tables\StructuredContent_Articles.sql" />
+    <Build Include="dbo\Tables\FactAPIUsageTopics.sql" />
+    <Build Include="dbo\Tables\FactAPIUsageArticles.sql" />
+    <Build Include="dbo\Tables\FactAPIUsage.sql" />
+    <Build Include="dbo\Tables\DimService.sql" />
+    <Build Include="dbo\Tables\DimMethod.sql" />
+    <Build Include="dbo\Tables\DimContent_Article.sql" />
+    <Build Include="Stg\Views\vwStructuredContent_Topics.sql" />
+    <Build Include="Stg\Views\vwStructuredContent_Articles.sql" />
+    <Build Include="dbo\Views\vwStructuredContent_Topics.sql" />
+    <Build Include="dbo\Views\vwStructuredContent_Articles.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\Local.publish.xml" />

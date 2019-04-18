@@ -1,0 +1,27 @@
+﻿CREATE TABLE [Stg].[StructuredContent_DITAdoc] (
+    [Language]                  NVARCHAR (4000) NULL,
+    [ContentType]               NVARCHAR (4000) NULL,
+    [Title]                     NVARCHAR (4000) NULL,
+    [HWID]                      NVARCHAR (4000) NULL,
+    [ContentId]                 NVARCHAR (4000) NULL,
+    [AspectLabel]               NVARCHAR (4000) NULL,
+    [AspectId]                  NVARCHAR (4000) NULL,
+    [ConceptLabel]              NVARCHAR (4000) NULL,
+    [ConceptId]                 NVARCHAR (4000) NULL,
+    [Taxonomy]                  NVARCHAR (4000) NULL,
+    [FHWVISIBILITY]             NVARCHAR (4000) NULL,
+    [FHWCERTIFICATIONDATE]      NVARCHAR (4000) NULL,
+    [FHWLASTREVIEWEDDATE]       NVARCHAR (4000) NULL,
+    [FHWNEXTMEDICALREVIEWDATE]  NVARCHAR (4000) NULL,
+    [FHWLASTMEDICALREVIEWDATE]  NVARCHAR (4000) NULL,
+    [FHWPRIMARYMEDICALREVIEWER] NVARCHAR (4000) NULL,
+    [FSTATUS]                   NVARCHAR (4000) NULL,
+    [FAUTHOR]                   NVARCHAR (4000) NULL,
+    [VERSION]                   NVARCHAR (4000) NULL,
+    [FHWREADINGLEVELN]          NVARCHAR (4000) NULL,
+    [FHWAUDIENCE]               NVARCHAR (4000) NULL,
+    [FHWCONTENTAREA]            NVARCHAR (4000) NULL,
+    [FMODULETYPE]               NVARCHAR (4000) NULL,
+    [DetailLevel]               NVARCHAR (4000) NULL
+);
+
