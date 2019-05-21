@@ -121,6 +121,7 @@
     <Build Include="Stg\Views\vwStructuredContent_Articles.sql" />
     <Build Include="dbo\Views\vwStructuredContent_Topics.sql" />
     <Build Include="dbo\Views\vwStructuredContent_Articles.sql" />
+    <Build Include="dbo\Tables\ClientNoMatch.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\Local.publish.xml" />
