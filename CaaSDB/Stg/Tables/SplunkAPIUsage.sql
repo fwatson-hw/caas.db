@@ -6,6 +6,10 @@
     [method]                 NVARCHAR (200) NULL,
     [httpStatusCode]         NVARCHAR (200) NULL,
     [jwtClientToken]         NVARCHAR (200) NULL,
-    [count]                  NVARCHAR (200) NULL
+    [jwtApplicationId]       NVARCHAR (200) NULL,
+    [jwtScope]               NVARCHAR (400) NULL,
+    [Count]                  NVARCHAR (200) NULL
 );
+
+
 
