@@ -13,4 +13,14 @@
     CONSTRAINT [FK_FactAPIUsage_DimService] FOREIGN KEY ([ServiceKey]) REFERENCES [dbo].[DimService] ([ServiceKey]),
     CONSTRAINT [FK_FactAPIUsage_DimStatus] FOREIGN KEY ([StatusKey]) REFERENCES [dbo].[DimStatus] ([StatusKey])
 );
-
+GO
+CREATE NONCLUSTERED INDEX IX_FactAPIUsage_ClientKey ON dbo.FactAPIUsage(ClientKey);
+GO
+CREATE NONCLUSTERED INDEX IX_FactAPIUsage_DateKey ON dbo.FactAPIUsage(DateKey);
+GO
+CREATE NONCLUSTERED INDEX IX_FactAPIUsage_MethodKey ON dbo.FactAPIUsage(MethodKey);
+GO
+CREATE NONCLUSTERED INDEX IX_FactAPIUsage_ServiceKey ON dbo.FactAPIUsage(ServiceKey);
+GO
+CREATE NONCLUSTERED INDEX IX_FactAPIUsage_StatusKey ON dbo.FactAPIUsage(StatusKey);
+GO

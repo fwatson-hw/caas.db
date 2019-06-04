@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Stg].[StructuredContent_synonym] (
-    [ConceptId]       NVARCHAR (4000) NULL,
-    [TopConceptId]    NVARCHAR (4000) NULL,
-    [TopConceptLabel] NVARCHAR (4000) NULL
+    [ConceptId]       NVARCHAR (50) NULL,
+    [TopConceptId]    NVARCHAR (50) NULL,
+    [TopConceptLabel] NVARCHAR (200) NULL
 );
 

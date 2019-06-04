@@ -1,9 +1,9 @@
 ﻿CREATE TABLE [Stg].[StructuredContent_AspectArticle] (
-    [DocumentId]   NVARCHAR (4000) NULL,
-    [TopConceptId] NVARCHAR (4000) NULL,
-    [AspectLabel]  NVARCHAR (4000) NULL,
-    [AspectId]     NVARCHAR (4000) NULL,
-    [ConceptLabel] NVARCHAR (4000) NULL,
-    [ConceptId]    NVARCHAR (4000) NULL
+    [DocumentId]   NVARCHAR (200) NULL,
+    [TopConceptId] NVARCHAR (200) NULL,
+    [AspectLabel]  NVARCHAR (200) NULL,
+    [AspectId]     NVARCHAR (200) NULL,
+    [ConceptLabel] NVARCHAR (200) NULL,
+    [ConceptId]    NVARCHAR (200) NULL
 );
 
