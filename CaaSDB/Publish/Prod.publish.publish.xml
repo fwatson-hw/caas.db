@@ -13,5 +13,6 @@
     <ExcludeUsers>True</ExcludeUsers>
     <IncludeTransactionalScripts>True</IncludeTransactionalScripts>
     <ProfileVersionNumber>1</ProfileVersionNumber>
+    <DropIndexesNotInSource>False</DropIndexesNotInSource>
   </PropertyGroup>
 </Project>
