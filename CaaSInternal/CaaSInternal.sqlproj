@@ -68,6 +68,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Security\" />
+    <Folder Include="dbo\Views\" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Post-Deploy\Script.PostDeployment.sql" />
@@ -88,6 +89,10 @@
     <Build Include="dbo\Tables\DimUser.sql" />
     <Build Include="dbo\Stored Procedures\DimDate_InsertInferredDate.sql" />
     <Build Include="Security\Stg.sql" />
+    <Build Include="dbo\Tables\StructuredContent_Articles.sql" />
+    <Build Include="dbo\Tables\StructuredContent_Topics.sql" />
+    <Build Include="dbo\Views\vwStructuredContent_Topics.sql" />
+    <Build Include="dbo\Views\vwStructuredContent_Articles.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\Test.publish.xml" />
