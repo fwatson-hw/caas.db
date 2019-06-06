@@ -4,7 +4,7 @@
     [Title]                     NVARCHAR (700) NULL,
     [HWID]                      NVARCHAR (10) NULL,
     [ContentId]                 NVARCHAR (40) NULL,
-    [AspectLabel]               NVARCHAR (50) NULL,
+    [AspectLabel]               NVARCHAR (100) NULL,
     [AspectId]                  NVARCHAR (50) NULL,
     [ConceptLabel]              NVARCHAR (100) NULL,
     [ConceptId]                 NVARCHAR (50) NULL,
