@@ -2,6 +2,7 @@
     [SplunkAPIUsageTopicsID] BIGINT         IDENTITY (1, 1) NOT NULL,
     [Date]                   DATETIME       NULL,
     [clienttoken]            NVARCHAR (500) NULL,
+	[jwtHWCONTENTCONFIGID]   NVARCHAR (500) NULL,
     [topicId]                NVARCHAR (50)  NULL,
     [locale]                 NVARCHAR (50)  NULL,
     [sc_status]              INT            NULL,
