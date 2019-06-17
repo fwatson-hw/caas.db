@@ -93,6 +93,12 @@
     <Build Include="dbo\Tables\StructuredContent_Topics.sql" />
     <Build Include="dbo\Views\vwStructuredContent_Topics.sql" />
     <Build Include="dbo\Views\vwStructuredContent_Articles.sql" />
+    <Build Include="dbo\Tables\DimContent_Article.sql" />
+    <Build Include="dbo\Tables\DimMethod.sql" />
+    <Build Include="dbo\Tables\DimService.sql" />
+    <Build Include="dbo\Tables\FactAPIUsage.sql" />
+    <Build Include="dbo\Tables\FactAPIUsageArticles.sql" />
+    <Build Include="dbo\Tables\FactAPIUsageTopics.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\Test.publish.xml" />
