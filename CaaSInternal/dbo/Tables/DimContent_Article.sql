@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[DimContent_Article] (
     [ArticleKey]         INT            NOT NULL,
-    [Hwid]               NVARCHAR (100) NOT NULL,
+    [Hwid]               NVARCHAR (255) NOT NULL,
     [Title]              NVARCHAR (500) NOT NULL,
     [Type]               NVARCHAR (100) NOT NULL,
     [Family]             NVARCHAR (100) NOT NULL,
