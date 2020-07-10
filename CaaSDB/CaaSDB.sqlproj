@@ -122,6 +122,11 @@
     <Build Include="dbo\Views\vwStructuredContent_Topics.sql" />
     <Build Include="dbo\Views\vwStructuredContent_Articles.sql" />
     <Build Include="dbo\Tables\ClientNoMatch.sql" />
+    <Build Include="Stg\Tables\SplunkAPIUsageSearch.sql" />
+    <Build Include="Stg\Tables\CaaSFactAPIUsageSearch.sql" />
+    <Build Include="dbo\Tables\FactAPIUsageSearch.sql" />
+    <Build Include="dbo\Tables\DimSearchTerm.sql" />
+    <Build Include="dbo\Tables\DimCodeFamily.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\Local.publish.xml" />
