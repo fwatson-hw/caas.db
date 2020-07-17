@@ -127,6 +127,7 @@
     <Build Include="dbo\Tables\FactAPIUsageSearch.sql" />
     <Build Include="dbo\Tables\DimSearchTerm.sql" />
     <Build Include="dbo\Tables\DimCodeFamily.sql" />
+    <Build Include="Stg\Tables\StructuredContent_concept.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish\Local.publish.xml" />

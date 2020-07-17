@@ -7,14 +7,14 @@
     [contents_t]            NVARCHAR (MAX) NULL,
     [weak_en]               NVARCHAR (MAX) NULL,
     [keywordsESR1_ss]       NVARCHAR (MAX) NULL,
-    [medicalSpecialties_ss] NVARCHAR (400) NULL,
-    [alternativeLabels_ss]  NVARCHAR (400) NULL,
-    [childrenAndRelated_ss] NVARCHAR (400) NULL,
+    [medicalSpecialties_ss] NVARCHAR (MAX) NULL,
+    [alternativeLabels_ss]  NVARCHAR (MAX) NULL,
+    [childrenAndRelated_ss] NVARCHAR (MAX) NULL,
     [label_s]               NVARCHAR (100) NULL,
-    [strong_en]             NVARCHAR (100) NULL,
+    [strong_en]             NVARCHAR (MAX) NULL,
     [label_t]               NVARCHAR (100) NULL,
     [concept_id_s]          NVARCHAR (50)  NULL,
-    [medium_en]             NVARCHAR (50)  NULL,
+    [medium_en]             NVARCHAR (MAX) NULL,
     [taxon_s]               NVARCHAR (20)  NULL,
     [keywordsENR1_ss]       NVARCHAR (MAX) NULL,
     [id]                    NVARCHAR (50)  NULL,
@@ -24,4 +24,6 @@
     [keywordsFRR1_ss]       NVARCHAR (MAX) NULL,
     [_version_]             NVARCHAR (100) NULL
 );
+
+
 
