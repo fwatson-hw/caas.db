@@ -3,7 +3,7 @@
     [Date]                   DATETIME       NULL,
     [clienttoken]            NVARCHAR (500) NULL,
 	[jwtHWCONTENTCONFIGID]   NVARCHAR (500) NULL,
-    [topicId]                NVARCHAR (50)  NULL,
+    [topicId]                NVARCHAR (100)  NULL,
     [locale]                 NVARCHAR (50)  NULL,
     [sc_status]              INT            NULL,
     [jwtapplicationid]       NVARCHAR (200) NULL,
